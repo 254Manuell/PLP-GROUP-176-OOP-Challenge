@@ -1,63 +1,43 @@
-# 🐶 Python OOP Challenge: Build Your Own Digital Pet
+# Digital Pet Simulator 🐶
 
-Welcome to this week's Python challenge! 🎉
+A fun Python-based virtual pet simulator that demonstrates Object-Oriented Programming concepts.
 
-In this challenge, you’ll be creating a virtual pet using Object-Oriented Programming concepts in Python. This fun project will help you practice how to use classes, attributes, methods, and constructors.
+## Documentation Files
 
----
+- `SCREENSHOT 1.PNG`: Contains a visual demonstration of the pet simulator interface, showing the status display and available interactions
+- Screen recording to be added: A video walkthrough of the application will be needed to demonstrate how to create a pet and use various features like feeding, playing, and training
 
-## 🧠 Objective
+## Features
 
-Create a class called `Pet` with the following:
+- Create and name your own virtual pet
+- Manage your pet's hunger, energy, and happiness levels
+- Interact with your pet through various activities:
+  - Feed your pet (🍖)
+  - Let your pet sleep (⚡)
+  - Play with your pet (😊)
+  - Train your pet new tricks! 🎯
+- Visual status display with emojis
+- Trick learning system
 
-### Attributes:
-- `name`: the name of your pet
-- `hunger`: an integer representing hunger level (0 = full, 10 = very hungry)
-- `energy`: an integer representing energy level (0 = tired, 10 = fully rested)
-- `happiness`: an integer (0–10)
+## How to Use
 
-### Methods:
-- `eat()`: reduces hunger by 3 points (but not below 0), and increases happiness by 1.
-- `sleep()`: increases energy by 5 points (but not above 10).
-- `play()`: decreases energy by 2, increases happiness by 2, and increases hunger by 1.
-- `get_status()`: prints the current state of the pet.
+1. Run the `pet.py` file
+2. Create a new pet by instantiating the Pet class with a name
+3. Interact with your pet using the available methods:
+   - `eat()`
+   - `sleep()`
+   - `play()`
+   - `get_status()`
+   - `train(trick)`
+   - `show_tricks()`
 
-### Bonus 🎯
-- Add a method `train(trick)` that teaches your pet a new trick and stores it in a list.
-- Add a method `show_tricks()` that prints all learned tricks.
+## Example
 
----
+```python
+pet = Pet("Buddy")
+pet.get_status()  # Check initial status
+pet.eat()         # Feed your pet
+pet.train("sit")  # Teach a new trick
+pet.show_tricks() # See what tricks your pet knows
+```
 
-## 📝 How to Complete
-
-1. Fork or clone this repo.
-2. Write your `Pet` class in `pet.py`.
-3. In `main.py`, create a pet object and call its methods to test functionality.
-4. Submit a GitHub repo or a zipped folder with your code and a screenshot of the output.
-
----
-
-## ✅ Sample Output
-
-```bash
-Creating pet: Max
-Max is eating...
-Max is playing...
-Max is sleeping...
-Max's current status:
-Hunger: 2
-Energy: 8
-Happiness: 9
-Tricks: ['roll over', 'play dead']
-
-
-### 💡 Tips
-Use max() and min() to keep values between 0 and 10.
-
-Think about edge cases like trying to play when energy is 0.
-
-🏁 Submission
-
-Submission format: clone/fork this repo
-
-Bonus points for creativity (custom actions, emojis, pet types, etc.)
