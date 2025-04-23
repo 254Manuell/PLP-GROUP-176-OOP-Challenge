@@ -8,7 +8,7 @@ A fun Python-based virtual pet simulator that demonstrates Object-Oriented Progr
 ![image alt](https://github.com/254Manuell/PLP-GROUP-176-OOP-Challenge/blob/ece3a83b15005e1cd9c56948595c898337fcba03/SCREENSHOT%201.PNG) 
 
 ### Video Demonstration
-![image alt](https://github.com/254Manuell/PLP-GROUP-176-OOP-Challenge/blob/30d865c4a8ff160064dda28c1b1339f268db7c60/main.py%20-%20OOP%20CHALLENGE%20GROUP%20176%20-%20Visual%20Studio%20Code%202025-04-22%2022-28-17.mp4) 
+(https://github.com/user-attachments/assets/345ae729-cc91-4076-a6bb-5e5a8a46902e.mp4)
 
 ## Features
 
