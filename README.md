@@ -5,7 +5,7 @@ A fun Python-based virtual pet simulator that demonstrates Object-Oriented Progr
 ## Application Preview
 
 ### Screenshot
-![Pet Simulator Interface] https://github.com/254Manuell/PLP-GROUP-176-OOP-Challenge/blob/ece3a83b15005e1cd9c56948595c898337fcba03/SCREENSHOT%201.PNG 
+![image alt](https://github.com/254Manuell/PLP-GROUP-176-OOP-Challenge/blob/ece3a83b15005e1cd9c56948595c898337fcba03/SCREENSHOT%201.PNG) 
 
 ### Video Demonstration
 <video width="100%" controls>
